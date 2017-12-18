@@ -66,6 +66,7 @@ public class WeekPagerFragment extends Fragment {
             @Override
             public void onDayPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 textLabel.setText(weekContentPagerAdapter.getDatas().get(position).getDayString());
+
             }
 
             @Override
@@ -90,9 +91,9 @@ public class WeekPagerFragment extends Fragment {
         reachAbleDays.add(new CalendarDay(2015, 5, 4));
         reachAbleDays.add(new CalendarDay(2015, 5, 6));
         reachAbleDays.add(new CalendarDay(2015, 5, 20));
-        weekViewAdapter.setData(reachAbleDays.get(0), reachAbleDays.get(reachAbleDays.size() - 1), null);
+        weekViewAdapter.setData(reachAbleDays.get(0), reachAbleDays.get(reachAbleDays.size() - 1), reachAbleDays);
         weekContentPagerAdapter.setData(reachAbleDays.get(0), reachAbleDays.get(reachAbleDays.size() - 1));
-        contentViewPager.setCurrentPosition(DayUtils.calculateDayPosition(weekViewAdapter.getFirstShowDay(), new CalendarDay(2015, 5, 6)));
+        contentViewPager.setCurrentPosition(DayUtils.calculateDayPosition(weekViewAdapter.getFirstShowDay(), new CalendarDay(2015, 5, 20)));
     }
 
     @Override

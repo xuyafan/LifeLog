@@ -38,6 +38,17 @@ public class WeekContentFragment extends Fragment {
     }
 
     @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        if (mCalendarDay != null) {
+            textView.setText(mCalendarDay.getDayString());
+        } else {
+            textView.setText(" no calendar day");
+        }
+    }
+
+    @Override
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
@@ -45,6 +56,6 @@ public class WeekContentFragment extends Fragment {
 
     @OnClick(R.id.textView)
     public void onViewClicked() {
-        Toast.makeText(getContext(), mCalendarDay.getDayString(), Toast.LENGTH_SHORT);
+        Toast.makeText(getContext(), mCalendarDay.getDayString(), Toast.LENGTH_SHORT).show();
     }
 }
