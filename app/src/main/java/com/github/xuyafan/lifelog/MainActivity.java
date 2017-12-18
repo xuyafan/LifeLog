@@ -20,7 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.github.xuyafan.lifelog.calendarlist.SecondCalendarFragment;
+import com.github.xuyafan.lifelog.calendarviewpager.WeekPagerFragment;
 import com.github.xuyafan.lifelog.first.FirstFragment;
 import com.github.xuyafan.lifelog.second.SecondFragment;
 import com.github.xuyafan.lifelog.third.ThirdFragment;
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity
 
 
     private static final String TAG = "MainActivity";
-
     private ViewPager viewPager;
 //    private BottomNavPagerAdapter adapter;
 //    private FirstFragment firstFragment;
@@ -188,7 +187,7 @@ public class MainActivity extends AppCompatActivity
         ThirdFragment thirdFragment = new ThirdFragment();
         BottomNavPagerAdapter adapter = new BottomNavPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(firstFragment);
-        adapter.addFragment(new SecondCalendarFragment());
+        adapter.addFragment(new WeekPagerFragment());
         adapter.addFragment(thirdFragment);
         viewPager.setAdapter(adapter);
     }

@@ -1,26 +1,32 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
-INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
+ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
 	package
-		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:2:5-41
+		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:2:5-37
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
-		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
+		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
-		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-2:44
+		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:1-10:12
 		INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:4:3-8:17
+	android:label
+		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:5:7-39
+	android:allowBackup
+		ADDED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml:4:16-42
 uses-sdk
 INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Android\Project\LifeLog\library\src\main\AndroidManifest.xml

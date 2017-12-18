@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.github.xuyafan.calendarviewpager.Utils;
 import com.github.xuyafan.lifelog.R;
 import com.github.xuyafan.lifelog.data.Record;
 import com.github.xuyafan.lifelog.data.RecordDataSupport;
@@ -30,21 +29,16 @@ import java.util.TreeMap;
 
 public class SecondCalendarFragment extends Fragment {
 
-    private static final String TAG = "SecondCalendarFragment";
-
     public static final SimpleDateFormat DAY_FORMAT = DateUtil.DAY_FORMAT;
-
     public static final SimpleDateFormat YEAR_MONTH_FORMAT =DateUtil.YEAR_MONTH_FORMAT;
-
     public static final SimpleDateFormat YEAR_MONTH_TITLE_FORMAT =new SimpleDateFormat("yyyy年MM月");
-
+    private static final String TAG = "SecondCalendarFragment";
+    protected View rootView;
+    protected CalendarListView calendarListview;
     private RecordListAdapter recordListAdapter;
     private CalendarItemAdapter calendarItemAdapter;
     //保存每一天下面的数据列表 key:date "yyyy-mm-dd" format.
     private TreeMap<String, List<Record>> listTreeMap = new TreeMap<>();
-
-    protected View rootView;
-    protected CalendarListView calendarListview;
 
     public SecondCalendarFragment() {
         // Required empty public constructor

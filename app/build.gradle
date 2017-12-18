@@ -32,15 +32,9 @@ dependencies {
     compile 'org.litepal.android:core:1.6.1'
     compile 'org.greenrobot:eventbus:3.1.1'
     compile 'com.kelin.calendarlistview:library:1.0.1'
-    compile 'com.github.todou:calendarpager:1.0.0'
 
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-
-    compile project(':calendarviewpager')
     compile project(':library')
-
-
-
 
 }

@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Library</string>
+    <color name="color_18ffff">#18ffff</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="text_color_dark">@color/color_333333</color>
+    <color name="text_color_light">@color/color_CCCCCC</color>
+    <color name="text_color_normal">@color/color_666666</color>
+    <color name="text_color_normal_hint">@color/color_CCCCCC</color>
+    <declare-styleable name="ForegroundImageView"><attr name="android:foreground"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_expand_view_max_height">300dp</dimen>
+    <dimen name="default_expand_view_min_height">32dp</dimen>
+    <dimen name="default_month_row_height">32dp</dimen>
+    <dimen name="default_month_view_height">240dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="si_default_radius_max">18dp</dimen>
+    <dimen name="si_default_radius_min">8dp</dimen>
+    <dimen name="si_default_text_size">14sp</dimen>
+    <string name="app_name">library</string>
 </resources>
